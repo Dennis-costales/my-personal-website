@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <title>Welcome | Dennis Costales</title>
+</head>
+
+<body>
+  <!-- ------------------| Navbar section |-------------------->
+  <div class="navbar">
+    <!-- <div class="absolute"></div> -->
+    <div class="container flex">
+      <h2 class="logo">Densin6ix</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <!-- <li><a href="skill.html">Skill</a></li> -->
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!----------------------| Showcase section |------------------>
+  <div class="homepage-bg"></div>
+  <section class="showcase">
+    <div class="container grid">
+      <div class="showcase-content">
+        <div class="profile">
+          <img src="Images/profile-img.JPG" alt="Profile photo">       
+          <div class="profile-info flex-column">
+            <div class="year">92</div>
+            <h4>Dennis Costales</h4>
+            <div class="profile-bio">
+              <i class="fas fa-laptop-code grid-1"><span>I'm a Developer</span></i>
+              <i class="fas fa-globe-asia grid-1"><span>Philippines</span></i>
+              <i class="fas fa-street-view grid-1"><span>Ontario CA</span></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-me showcase-content flex-column">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="resume-btn">Resume</button>
+      </div>
+    </div>   
+  </section>
+
+  <!---------------------| Skill section |---------------------->
+  <div class="rotate flex container">
+    <h1 class="h-border">My skills</h1>
+  </div>
+  <section class="skills">
+    <div class="container showcase-bg">
+      <!-- <h1 class="h-border">My skills</h1> -->
+      <div class="skill-main-h">
+        <span class="hcjp"><i class="far fa-file-code"></i></span>
+        <span class="hcjp"><i class="far fa-file-code"></i></span>
+        <span class="hcjp"><i class="far fa-file-code"></i></span>
+        <span class="hcjp"><i class="far fa-file-code"></i></span>
+      </div>
+      <div class="skill-content grid">
+        <div id="skillUlLeft">
+          <ul id='htmlJS' class="skill-li">
+          </ul>
+        </div>
+        <div id="skillUlRight">
+          <ul id='cssPHP' class="skill-li">
+          </ul>
+        </div>
+        <!-- HTML -->      
+        <div class="skill flex-column" id="htmlSkill">
+          <div class="grid-2 progress-wrap">
+            <button class="button-list">+</button>
+            <div class="skill-h">
+              <div class="grid-2 html">
+                <i class="fab fa-html5">
+                  <span class="skill-name">HTML5</span>
+                </i>
+              </div>
+              <p class="skill-text">Hyper Text Markup Language</p>
+            </div>
+            <div class="bar-percent2 percent">90</div>
+            <div id="progress" class="progress"></div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill flex-column" id="cssSkill">
+          <div class="grid-2 progress-wrap">
+            <button class="button-list">+</button>
+            <div class="skill-h">
+              <div class="grid-2 css">
+                <i class="fab fa-css3">
+                  <span class="skill-name">CSS3</span>
+                </i>
+              </div>
+              <p class="skill-text">Cascading Style Sheet</p>
+            </div>
+            <div class="bar-percent2 percent">92</div>
+            <div id="progress" class="progress"></div>
+          </div>
+        </div>
+
+        <!-- Javascript -->
+        <div class="skill flex-column" id="jsSkill">
+          <div class="grid-2 progress-wrap">
+            <button class="button-list">+</button>
+            <div class="skill-h">
+              <div class="grid-2 css">
+                <i class="fab fa-js-square">
+                  <span class="skill-name">JS</span>
+                </i>
+              </div>
+              <p class="skill-text">Javascript</p>
+            </div>
+            <div class="bar-percent2 percent">78</div>
+            <div id="progress" class="progress"></div>
+          </div>
+        </div>
+
+        <!-- PHP -->
+        <div class="skill flex-column" id="phpSkill">
+          <div class="grid-2 progress-wrap">
+            <button class="button-list">+</button>
+            <div class="skill-h">
+              <div class="grid-2 css">
+                <i class="fab fa-php">
+                  <span class="skill-name">PHP</span>
+                </i>
+              </div>
+              <p class="skill-text">Hypertext Pre-proces
+                sor</p>
+            </div>
+            <div class="bar-percent2 percent">56</div>
+            <div id="progress" class="progress"></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-------------------| Projects section |--------------------->
+  <div class="rotate flex container">
+    <h1 class="h-border">My Projects</h1>
+  </div>
+  <section class="projects">
+    <div class="container showcase-bg">
+      <div class="project-icons flex">
+        <i style="color: red;" class="fas fa-code"></i>
+        <i style="color: blue;" class="fas fa-keyboard"></i>
+        <i style="color: green;" class="fas fa-laptop-code"></i>
+      </div>
+      <div class="project-content grid-1">
+        <div class="project-card html-css">
+          <div class="card flex-column">
+            <a href="/Projects/projects.html"><span>All Project</span></a>
+          </div>
+        </div>
+        <div class="project-card web-temp">
+          <div class="card flex">
+            <a href="#"><span>Web Templates</span></a>
+          </div>
+        </div>
+        <div class="project-card web-clone">
+          <div class="card flex">
+            <a href="#"><span>Web Clones</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------| Contact secion |----------------------->
+  <section class="contacts container">
+    <div class="container flex">
+      <h1 class="h-border flex">Connect with me</h1>
+      <div class="contact-content grid-1">
+        <div class="contact info flex">
+          <i class="fas fa-envelope"></i>
+          <a href="#" class="decor">costalesdennis@gmail.com</a>
+          <i class="fas fa-phone"></i>
+          <a href="#" class="decor">(647) - 880 - 5723</a>
+          <i class="fas fa-street-view"></i>
+          <a href="#" class="decor">711 Midland Ave,<br>Scarborough, ON</a>
+        </div>
+        <div class="contact social-media flex">
+          <h4>Social media</h4>
+          <ul class="social">
+            <li class="media"><a href="#"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+            <li class="media"><a href="#"><i class="fab fa-instagram-square"></i>Instagram</a></li>
+            <li class="media"><a href="#"><i class="fab fa-twitter-square"></i>Twitter</a></li>
+            <li class="media"><a href="#"><i class="fab fa-github-square"></i>Github</a></li>
+            <li class="media"><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+          </ul>
+        </div>
+        <div class="contact connect-form">
+          <h4>Looking to build a project?</h4>
+          <h6>I'm happy to help</h6>
+          <form action="" class="connect">
+            <input type="text" placeholder="name" required>
+            <input type="email" class="email" placeholder="email" required>
+            <textarea name="" id="" cols="20" rows="3" placeholder="leave a message"></textarea>
+            <input type="submit" value="Connect">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------| Footer section |----------------------->
+  <footer class="footer container">
+    <div class="container">
+      <div class="footer-content flex-column">
+        <nav class="footer-menu">
+          <ul class="flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h5>I am a Developer</h5>
+        <p>Designed and Developed by <span>Dennis C.</span></p>
+
+      </div>
+    </div>
+  </footer>
+
+  <!--=================| Script section | Javascript |========== -->
+  <script type="text/javascript" src="/JS/main.js"></script>
+  <script type="text/javascript" src="/JS/jquery.js"></script>
+
+</body>
+</html>
