@@ -1,2 +1,2 @@
-# my-personal-website
+# Website Templates
 This is my personal website
