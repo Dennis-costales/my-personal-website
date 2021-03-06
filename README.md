@@ -1,2 +1,2 @@
 # Website Templates
-This is my personal website
+Web design templates.
